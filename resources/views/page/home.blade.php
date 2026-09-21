@@ -1,13 +1,11 @@
 @extends('layouts.app')
 
-@section('titlr', 'home')
+@section('title', 'Home')
 
 @section('content')
-
-  <div class="container mt-5">
+    <div class="container mt-5">
         <h1 class="text-center mb-4">Dashboard</h1>
-        <p>selamat datang dihalaman home</p>
-        <a class="btn btn-succes btn-lg" href="{{ url('/profile') }}"> Lihat halaman profile</a>
+        <p>Selamat datang di halaman home</p>
+        <a href="{{ url('/profile') }}" class="btn btn-success">Lihat Halaman Profile</a>
     </div>
-
 @endsection

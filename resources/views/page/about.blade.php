@@ -1,12 +1,10 @@
 @extends('layouts.app')
 
-@section('titlr', 'home')
+@section('title', 'home')
 
 @section('content')
-
-  <div class="container mt-5">
-        <h1 class="text-center mb-4">Halaman About</h1>
-        <p>aplikasi ini dikembangkan sebagai materi mata kuliah rekayasa web</p>
+    <div class="container mt-5">
+        <h1 class="mb-4">about</h1>
+        <p>Halaman ini akan di kembangkan untuk pembelajaran rekayasa web</p>
     </div>
-
 @endsection
