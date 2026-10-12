@@ -16,8 +16,8 @@ Route::get('/about', function () {
     return view('page.about');
 });
 
-Route::prefix('admin')->name('admin.')->group(function () { // tambahkan titik setelah 'admin'
-    Route::get('/', function () { // 'routes' -> 'Route'
-        return view('admin.template'); // perbaiki sintaks: view(;admin.temolate) -> view('admin.template')
+Route::prefix('admin')->name('admin.')->group(function () { 
+    Route::get('/', function () { 
+        return view('admin.template'); 
     })->name('home');
 });
