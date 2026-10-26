@@ -67,7 +67,7 @@ body {
                 <a class="nav-link text-white" href="{{ route('admin.home') }}">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="#">Project</a>
+                <a class="nav-link text-white" href="{{ route('admin.projects.index') }}">Project</a>
             </li>
         </ul>
     </div>
