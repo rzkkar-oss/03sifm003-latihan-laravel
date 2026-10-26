@@ -7,6 +7,9 @@
             <h5>Data Project</h5>
             <a href="{{ route('admin.projects.create') }}" class="btn btn-primary">Tambah Data</a>
         </div>
+        @if (session('success'))
+        <div class="alert alert-success">{{ session('success') }}</div>
+        @endif
         <div class="table-responsive">
             <table class="table table-bordered w-100" id="tb_project">
                 <thead>
